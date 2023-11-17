@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.bouton{
+    display:flex ;
+    list-style-type: none;
+    display: inline-block;
+    background-color:blue;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.bouton:hover a{
+    color: blue;
+    padding: 10px;
+    background-color: white;
+    transition:0.5s all;
+}
+ul{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-size-adjust: 25px;
+}
+h2{
+    text-align: center;
+    text-size-adjust: 25px;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+footer{
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 20px;
+    margin: 0%;
+}
+.bloc-1
+{text-align: center;
+}
+.bloc-2
+{text-align: center;
+}
+.bloc-3
+{text-align: center;
+}
+.bloc-4
+{text-align: center;
+}
+@media all and (max-device-width: 480px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
+{
+    body{
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        color: green;
+    }
+    .resp{
+        color: yellow;
+    }
+
+}

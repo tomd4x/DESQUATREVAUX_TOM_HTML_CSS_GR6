@@ -1,0 +1,66 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.bouton{
+    display:flex ;
+    list-style-type: none;
+    display: inline-block;
+    background-color:blue;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.bouton:hover a{
+    color: blue;
+    padding: 10px;
+    background-color: white;
+    transition:0.5s all;
+}
+ul{
+    text-align: center;
+}
+table{
+    border: 2px solid red;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border: 2px solid rgb(42, 52, 187);
+}
+td{
+    border: 2px solid rgb(42, 52, 187);
+}
+main{
+    line-height: 50px;
+}
+footer{
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 20px;
+    margin: 0%;
+}
+p{
+    color: red;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media all and (max-device-width: 480px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
+{
+    body{
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

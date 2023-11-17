@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.bouton{
+    display:flex ;
+    list-style-type: none;
+    display: inline-block;
+    background-color:blue;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.bouton:hover a{
+    color: blue;
+    padding: 10px;
+    background-color: white;
+    transition:0.5s all;
+}
+footer{
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 20px;
+    margin: 0%;
+}
+main{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    }
+.bloc-1
+{
+width: 49vw;
+height: 400px
+;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+border: 1px solid black;
+}
+.bloc-2{
+width: 49vw;
+height: 400px;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.bloc-3{
+width: 49vw;
+height: 400px;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.bloc-4{
+    width: 49vw;
+height: 400px;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+p{
+    color: black;
+    text-align: center;
+    
+}
+ul{
+    text-align: center;
+}
+.bloc-1 img{
+    justify-content: center;
+}
+@media all and (max-device-width: 480px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
+{
+    body{
+        
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    
+}
