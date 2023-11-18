@@ -31,16 +31,8 @@ h1{
     text-align: center;
     text-size-adjust: 25px;
 }
-h2{
-    text-align: center;
-    text-size-adjust: 25px;
-}
-h3{
-    text-align: center;
-}
-h4{
-    text-align: center;
-}
+
+
 footer{
     background-color: rgb(197, 197, 197);
     text-align: center;
@@ -62,15 +54,27 @@ footer{
 @media all and (max-device-width: 480px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
 {
     body{
-        background-color: blueviolet;
+        
         display: flex;
         flex-direction: column;
     }
-    p{
-        color: green;
+    header img{
+        width: 75vw;
     }
-    .resp{
-        color: yellow;
+    .bloc-1 img{
+        width: 85vw;
     }
+    .bloc-2 img{
+        width: 85vw;
+    }
+    .bloc-3 img{
+        width: 85vw;
+    }
+    .bloc-4 img{
+        width: 85vw;
+    }
+
+
+
 
 }

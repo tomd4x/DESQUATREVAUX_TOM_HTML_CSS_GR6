@@ -57,10 +57,11 @@ p{
 }
 @media all and (max-device-width: 480px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
 {
-    body{
-        background-color: blueviolet;
+    body{ 
         display: flex;
         flex-direction: column;
     }
-    
+    header img{
+        width: 75vw;
+    }
 }
